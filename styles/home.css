@@ -117,13 +117,13 @@ p{
   height:280px;
   
 }
+.images{
+  position: inherit;
+  height: 280px;
+}
 hr{
   background-color: green;
   border-color:green;
-}
-
-footer{
-  margin-top:500px;
 }
 
 footer p{
