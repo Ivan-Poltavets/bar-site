@@ -81,3 +81,29 @@ hr{
   background-color: green;
   border-color: green;
 }
+
+@media only screen and (max-width: 1440px){
+  p{
+    font-size:20px;
+  }
+  .nav_links li a{
+    font-size:25px;
+  }
+}
+
+@media only screen and (max-width:1024px){
+  .nav_links li {
+    padding: 20px 15px;
+  }
+}
+
+@media only screen and (max-width:768px){
+  header{
+    padding: 30px 5%;
+    height: 120px;
+
+  }
+  .image1{
+    margin:0;
+  }
+}

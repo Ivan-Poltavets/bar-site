@@ -102,11 +102,13 @@ p{
 .img1{
   position:absolute;
   height:280px;
+  width:700px;
 }
 .img2{
   margin-left:600px;
   position:absolute;
   height:280px;
+  width:700px;
 }
 .img3{
   margin-left:1200px;
@@ -118,4 +120,48 @@ p{
 hr{
   background-color: green;
   border-color:green;
+}
+
+footer{
+  margin-top:280px;
+}
+
+footer p{
+  margin-left:800px;
+  margin-top:20px;
+  color:yellow;
+  font-size:19px;
+  font-family: "Arimo";
+}
+
+footer p a:hover{
+  color:green;
+  text-decoration: underline;
+}
+footer hr{
+  margin-bottom: 0;
+  padding: 0;
+  margin-left:0px;
+}
+
+@media only screen and (max-width: 1440px){
+  .nav_links li a{
+    font-size:25px;
+  }
+  .nav_links li {
+    padding: 20px 10px;
+  }
+  header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 5%;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width:1024px){
+  .nav_links li {
+    padding: 20px 10px;
+  }
 }

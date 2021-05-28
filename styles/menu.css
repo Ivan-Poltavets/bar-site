@@ -46,11 +46,87 @@ header{
 .left{
   width:145px;
   height:100%;
-  position:absolute;
   left:0;
 }
 
 hr{
   background-color: green;
   border-color:green;
+}
+
+.list-eat_list{
+  padding: 20px;
+  background-color: white;
+  margin-left:130px;
+  height: 400px;
+  width:350px;
+}
+
+.list-eat_list:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.list-eat_list img{
+  width: 170px;
+  margin-bottom: 25px;
+}
+
+.list-eat{
+  width:1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+.list-eat_list a{
+  color:black;
+  font-family: 'Arimo';
+  font-size:18px;
+}
+span{
+  color:gray;
+}
+
+p{
+  color:black;
+  font-size:20px;
+  line-height: 45px;
+}
+
+@media only screen and (max-width: 1440px){
+  .list-eat_list{
+    margin-left:90px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .list-eat{
+    display:inline-block;
+  }
+  .list-eat_list img{
+    width:200px;
+    margin:20px;
+  }
+  .list-eat_list{
+    margin-left:300px;
+    height: 450px;
+    width:400px;
+  }
+  .nav_links li {
+    padding: 20px 15px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .list-eat_list{
+    margin-left:270px;
+    height: 500px;
+  }
+  .list-eat_list img{
+    width:250px;
+  }
+  span{
+    font-size: 23px;
+  }
+  p{
+    font-size:26px;
+  }
 }
