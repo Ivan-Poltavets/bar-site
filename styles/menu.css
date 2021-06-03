@@ -13,6 +13,7 @@ li, a{
 
 header{
   display: flex;
+  width: 100%;
   justify-content:space-between;
   align-items: center;
   padding: 30px 10%;
@@ -57,7 +58,7 @@ hr{
 .list-eat_list{
   padding: 20px;
   background-color: white;
-  margin-left:130px;
+  margin-left:5%;
   height: 400px;
   width:350px;
 }
@@ -71,13 +72,6 @@ hr{
   margin-bottom: 25px;
 }
 
-.list-eat{
-  width:1080px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 36px 0;
-}
 .list-eat_list a{
   color:black;
   font-family: 'Arimo';
@@ -92,31 +86,37 @@ p{
   font-size:20px;
   line-height: 45px;
 }
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  width: 80%;
+  height: 100%;
+  padding: 36px 0;
+}
 #check-menu,label{
   display: none;
 }
 
 @media only screen and (max-width: 1440px){
   header{
-    width:100%;
-  }
-  .list-eat_list{
-    margin-left:90px;
+    width: 109%;
   }
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1300px){
   header{
+    width: 100%;
     height: 120px;
   }
-  .list-eat{
-    display:inline-block;
+  .info{
+    display: block;
   }
   .list-eat_list img{
     width:200px;
     margin:20px;
   }
   .list-eat_list{
-    margin-left:300px;
+    margin-left:30%;
     height: 450px;
     width:400px;
   }
@@ -207,7 +207,6 @@ p{
 @media only screen and (max-width: 768px){
 
   .list-eat_list{
-    margin-left:270px;
     height: 500px;
   }
   .list-eat_list img{
