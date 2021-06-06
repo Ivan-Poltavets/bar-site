@@ -43,12 +43,6 @@ header{
   color:green;
   text-decoration:underline;
 }
-.left{
-  width:145px;
-  height:100%;
-  position:absolute;
-  left:0;
-}
 
 .main{
   width: 100%;
@@ -76,7 +70,6 @@ p{
 }
 .icon3{
   margin-left:79%;
-  margin-top:0;
   position: absolute;
   margin-top:15px;
 }
@@ -127,7 +120,7 @@ hr{
 }
 
 footer p{
-  margin-left:38%;;
+  margin-left:45%;;
   margin-top:20px;
   color:yellow;
   font-size:19px;
@@ -149,24 +142,25 @@ footer hr{
 }
 
 @media only screen and (max-width: 1440px){
+  header{
+    padding: 30px 5%;
+    height: 120px;
+  }
   .nav_links li a{
     font-size:23px;
   }
   .nav_links li {
     padding: 20px 10px;
   }
-  header{
-    padding: 30px 5%;
-    height: 80px;
-  }
+  
 }
 
 @media only screen and (max-width:1024px){
   .nav_links li a{
-    font-size:20px;
+    font-size:25px;
   }
   .nav_links li {
-    padding: 20px 8px;
+    padding: 20px 15px;
   }
   footer p{
     margin-left:38%;
@@ -189,6 +183,7 @@ footer hr{
   .p-3{
     margin-left: 74%;
   }
+  
 }
 
 @media only screen and (max-width:768px){
@@ -296,6 +291,7 @@ footer hr{
   #check-menu:checked ~ .fourth{
   display: none;
   }
+  
 }
 
 @media only screen and (max-width:568px){

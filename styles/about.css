@@ -51,6 +51,8 @@ header{
 
 img{
   margin-right: 8%;
+  width:40%;
+  height:450px;
 }
 h2{
     font-family:"Arimo";
@@ -82,15 +84,42 @@ hr{
     font-size:20px;
   }
   .nav_links li a{
-    font-size:25px;
+    font-size:23px;
+  }
+  .nav_links li {
+    padding: 20px 10px;
   }
   header{
+    height: 120px;
+    padding: 30px 5%;
     height: 120px;
   }
 }
 @media only screen and (max-width:1250px){
+  img{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width:1024px){
+  .nav_links li a{
+    font-size:25px;
+  }
+  .nav_links li {
+    padding: 20px 15px;
+  }
+  
+}
+
+@media only screen and (max-width:768px){
   header{
+    padding: 30px 5%;
     height: 120px;
+
+  }
+  img{
+    margin-right: 15%;
+    width: 70%;
   }
   .wrapper{
     width:320px;
@@ -171,22 +200,5 @@ hr{
   }
   #check-menu:checked ~ .fourth{
   display: none;
-  }
-}
-
-@media only screen and (max-width:1024px){
-  .nav_links li {
-    padding: 20px 15px;
-  }
-}
-
-@media only screen and (max-width:768px){
-  header{
-    padding: 30px 5%;
-    height: 120px;
-
-  }
-  img{
-    margin-right: 15%;
   }
 }
