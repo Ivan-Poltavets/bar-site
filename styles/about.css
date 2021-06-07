@@ -110,7 +110,9 @@ hr{
   .nav_links li {
     padding: 20px 15px;
   }
-  
+  .info img{
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width:768px){
@@ -119,7 +121,7 @@ hr{
     height: 120px;
 
   }
-  img{
+  .info img{
     margin-right: 15%;
     width: 70%;
   }
