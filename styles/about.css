@@ -49,10 +49,12 @@ header{
     width: 70%;
 }
 
-img{
+.info img{
   margin-right: 8%;
   width:40%;
-  height:450px;
+  height:20%;
+  border: 5px solid;
+  border-radius: 10px;
 }
 h2{
     font-family:"Arimo";
